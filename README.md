@@ -12,7 +12,7 @@ Keep stock for Eloquent models. This package will track stock mutations for your
 You can install the package via composer:
 
 ``` bash
-composer require appstract/laravel-stock
+composer require jmistani/inventory
 ```
 
 By running `php artisan vendor:publish --provider="Appstract\Stock\StockServiceProvider"` in your project all files for this package will be published. Run `php artisan migrate` to migrate the table. There will now be a `stock_mutations` table in your database.
